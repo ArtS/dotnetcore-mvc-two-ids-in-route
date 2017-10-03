@@ -1,0 +1,9 @@
+E:\dev\route-with-two-ids\obj\Debug\netcoreapp1.1\route-with-two-ids.csprojResolveAssemblyReference.cache
+E:\dev\route-with-two-ids\obj\Debug\netcoreapp1.1\route-with-two-ids.AssemblyInfo.cs
+E:\dev\route-with-two-ids\bin\Debug\netcoreapp1.1\RouteWithTwoIds.deps.json
+E:\dev\route-with-two-ids\bin\Debug\netcoreapp1.1\RouteWithTwoIds.runtimeconfig.json
+E:\dev\route-with-two-ids\bin\Debug\netcoreapp1.1\RouteWithTwoIds.runtimeconfig.dev.json
+E:\dev\route-with-two-ids\bin\Debug\netcoreapp1.1\RouteWithTwoIds.dll
+E:\dev\route-with-two-ids\bin\Debug\netcoreapp1.1\RouteWithTwoIds.pdb
+E:\dev\route-with-two-ids\obj\Debug\netcoreapp1.1\RouteWithTwoIds.dll
+E:\dev\route-with-two-ids\obj\Debug\netcoreapp1.1\RouteWithTwoIds.pdb
