@@ -53,13 +53,24 @@ namespace RouteWithTwoIds
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller}/{action}/",
-                    defaults:new { controller = "Master", action = "Index" });
+                    template: "{controller=Home}/{action=Index}/{id?}");
 
                 routes.MapRoute(
-                    name: "two-ids",
-                    template: "{controller}/{id}/{action}/{id2}",
-                    defaults: new { controller = "Master", action = "Index" });
+                    name: "twoids",
+                    template: "{controller}/{name}/{action}/{name2}");
+
+                routes.MapRoute(
+                    name: "twoids2",
+                    template: "{controller}/{action}/{name}/{name2}");
+
+                routes.MapRoute(
+                    name: "twoids3",
+                    template: "{name}/{name2}/{controller}/{action}");
+
+                routes.MapRoute(
+                    name: "twoids4",
+                    template: "show/{name}/{name2}/", 
+                    defaults: new { controller = "Master", action = "Detail" });
 
             });
         }

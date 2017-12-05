@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "List of links with two IDs";
+}
+<h3>Try different URLs below</h3>
+
+@{
+    var link1 = Url.RouteUrl("twoids", new { controller = "Master", Action = "Detail", name = "Australia", name2 = "England" });
+    var link2 = Url.RouteUrl("twoids2", new { controller = "Master", Action = "Detail", name = "Iceland", name2 = "New Zealand" });
+    var link3 = Url.RouteUrl("twoids3", new { controller = "Master", Action = "Detail", name = "Kazakhstan", name2 = "USSR" });
+    var link4 = Url.RouteUrl("twoids4", new { name = "Brazil", name2 = "France" });
+}
+<p>
+    Below are examples of various configurations of parameters within the URL for simulated
+    Master-Detail example, where any combination of parameters is possible.
+</p>
+<ul>
+    <li><a href="@link1">Australia - England: @link1</a></li>
+    <li><a href="@link2">Iceland - New Zealand: @link2</a></li>
+    <li><a href="@link3">Kazakhstan - USSR: @link3</a></li>
+    <li><a href="@link4">Brazil - France: @link4</a></li>
+</ul>

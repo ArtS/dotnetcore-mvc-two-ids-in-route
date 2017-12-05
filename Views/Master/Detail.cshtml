@@ -1,22 +1,22 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
-
 }
 @model RouteWithTwoIds.Models.MasterDetailModel
+
 <div class="row">
-    <div class="col-md-2">
-        <h1>Master Id:</h1>
+    <div class="col-md-3">
+        <h3>Master Name:</h3>
     </div>
-    <div class="col-md-10">
-        <h1>@Model.Id</h1>
+    <div class="col-md-9">
+        <h3>@Model.Name</h3>
     </div>
 </div>
 
 <div class="row">
-    <div class="col-md-2">
-        <h1>Detail Id:</h1>
+    <div class="col-md-3">
+        <h3>Detail Name:</h3>
     </div>
-    <div class="col-md-10">
-        <h1>@Model.Id2</h1>
+    <div class="col-md-9">
+        <h3>@Model.Name2</h3>
     </div>
 </div>

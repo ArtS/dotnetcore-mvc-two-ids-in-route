@@ -16,7 +16,7 @@
       }
     },
     "route-with-two-ids": {
-      "commandName": "Project"
+      "commandName": "IISExpress"
     }
   }
 }
